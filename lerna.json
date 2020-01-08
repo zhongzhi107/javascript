@@ -1,0 +1,12 @@
+{
+  "packages": [
+    "packages/eslint-config-qunar-base",
+    "packages/eslint-config-qunar-node",
+    "packages/eslint-config-qunar-react",
+    "packages/eslint-config-qunar-rn",
+    "packages/eslint-config-qunar-typescript-base",
+    "packages/eslint-config-qunar-typescript-node",
+    "packages/eslint-config-qunar-typescript-react"
+  ],
+  "version": "1.1.6"
+}

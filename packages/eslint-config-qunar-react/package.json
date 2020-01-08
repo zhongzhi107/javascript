@@ -1,0 +1,37 @@
+{
+  "name": "eslint-config-qunar-react",
+  "version": "1.1.6",
+  "description": "Qunar's ESLint config, following our styleguide",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test",
+    "release": "standard-version && npm publish",
+    "release:major": "standard-version --release-as major && npm publish",
+    "postrelease": "git push && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhi107/javascript.git"
+  },
+  "keywords": [
+    "eslint",
+    "qunar"
+  ],
+  "author": "zhongzhi <zhong.zhi@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhongzhi107/javascript/issues"
+  },
+  "homepage": "https://github.com/zhongzhi107/javascript#readme",
+  "dependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-qunar-base": "^1.1.6",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  },
+  "gitHead": "58f5253952aab63eaedb659dbe3295b2f3d96ebd"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "eslint-config-qunar-base",
+  "version": "1.1.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint test",
+    "release": "standard-version && npm publish",
+    "release:major": "standard-version --release-as major && npm publish",
+    "postrelease": "git push && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhi107/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongzhi107/javascript/issues"
+  },
+  "homepage": "https://github.com/zhongzhi107/javascript#readme",
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-qunar": "^1.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0"
+  },
+  "gitHead": "58f5253952aab63eaedb659dbe3295b2f3d96ebd"
+}

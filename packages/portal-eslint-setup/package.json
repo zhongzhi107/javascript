@@ -1,0 +1,20 @@
+{
+  "name": "portal-eslint-setup",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "eslint --ext .ts,.js,.jsx,.tsx --no-eslintrc --report-unused-disable-directives -f node_modules/eslint-json --no-color",
+    "start_1210": "eslint --ext .ts,.js,.jsx --config .eslintrc.js --no-eslintrc --report-unused-disable-directives -f node_modules/eslint-json --no-color -o $1 $2",
+    "test": "eslint --ext .js,.jsx,.ts,.tsx --no-eslintrc --report-unused-disable-directives $1 $2 $3"
+  },
+  "dependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-qunar-base": "^1.1.6",
+    "eslint-config-qunar-node": "^1.1.6",
+    "eslint-config-qunar-react": "^1.1.6",
+    "eslint-config-qunar-typescript-base": "^1.1.6",
+    "eslint-config-qunar-typescript-node": "^1.1.6",
+    "eslint-config-qunar-typescript-react": "^1.1.6",
+    "eslint-json": "2.0.0",
+    "typescript": "^3.6.2"
+  }
+}

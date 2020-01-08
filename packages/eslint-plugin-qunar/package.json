@@ -1,0 +1,30 @@
+{
+  "name": "eslint-plugin-qunar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version && npm publish",
+    "release:major": "standard-version --release-as major && npm publish",
+    "postrelease": "git push && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhi107/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongzhi107/eslint-plugin-qunar/issues"
+  },
+  "homepage": "https://github.com/zhongzhi107/eslint-plugin-qunar#readme",
+  "dependencies": {
+    "import-modules": "^1.1.0",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.snakecase": "^4.1.1",
+    "lodash.upperfirst": "^4.3.1"
+  },
+  "gitHead": "58f5253952aab63eaedb659dbe3295b2f3d96ebd"
+}

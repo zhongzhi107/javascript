@@ -1,0 +1,33 @@
+{
+  "name": "eslint-config-qunar-typescript-base",
+  "version": "1.1.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint --ext .ts test",
+    "release": "standard-version && npm publish",
+    "release:major": "standard-version --release-as major && npm publish",
+    "postrelease": "git push && git push origin --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhongzhi107/javascript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhongzhi107/javascript/issues"
+  },
+  "homepage": "https://github.com/zhongzhi107/javascript#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.0.0",
+    "@typescript-eslint/parser": "^2.0.0",
+    "eslint-config-qunar-base": "^1.1.6"
+  },
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "typescript": "^3.6.2"
+  },
+  "gitHead": "58f5253952aab63eaedb659dbe3295b2f3d96ebd"
+}
