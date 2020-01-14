@@ -1,5 +1,8 @@
+const env = require('./env');
+
 module.exports = {
   extends: ['.'],
+  env,
   rules: {
     // 关闭缩进检查
     indent: 'off',
