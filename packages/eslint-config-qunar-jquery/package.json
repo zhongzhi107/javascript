@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-jquery",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "Qunar's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -25,7 +25,7 @@
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
     "babel-eslint": "^10.0.3",
-    "eslint-config-qunar-base": "^1.1.7"
+    "eslint-config-qunar-base": "^1.1.8"
   },
   "devDependencies": {
     "eslint": "^6.3.0"
