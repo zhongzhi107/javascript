@@ -1,12 +1,11 @@
 {
   "packages": [
     "packages/eslint-config-qunar-base",
-    "packages/eslint-config-qunar-jquery",
+    "packages/eslint-config-qunar-sonar",
     "packages/eslint-config-qunar-node",
     "packages/eslint-config-qunar-react",
     "packages/eslint-config-qunar-rn",
     "packages/eslint-config-qunar-typescript-base",
-    "packages/eslint-config-qunar-typescript-jquery",
     "packages/eslint-config-qunar-typescript-node",
     "packages/eslint-config-qunar-typescript-react",
     "packages/eslint-config-qunar-typescript-rn"
