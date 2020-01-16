@@ -1,4 +1,11 @@
 module.exports = {
+  env: {
+    es6: true
+  },
+  parserOptions: {
+    ecmaVersion: 6,
+    sourceType: 'module'
+  },
   plugins: ['sonarjs'],
   rules: {
     // 禁用 debugger
