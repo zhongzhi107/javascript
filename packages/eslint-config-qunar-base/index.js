@@ -1,6 +1,9 @@
+const env = require('./env');
+
 module.exports = {
   extends: ['eslint-config-airbnb-base'],
   plugins: ['qunar'],
+  env,
   // reportUnusedDisableDirectives: true,
   rules: {
     // 函数复杂度
