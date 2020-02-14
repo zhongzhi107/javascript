@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint-config-airbnb-base": "^14.0.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-qunar": "^1.0.1"
