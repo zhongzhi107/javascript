@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-rn",
-  "version": "1.1.12",
+  "version": "1.1.13",
   "description": "Qunar's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
-    "eslint-config-qunar-react": "^1.1.12"
+    "eslint-config-qunar-react": "^1.1.13"
   },
   "devDependencies": {
     "eslint": "^6.3.0"
