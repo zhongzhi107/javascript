@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-react",
-  "version": "1.1.8",
+  "version": "1.1.11",
   "description": "Qunar's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -26,7 +26,7 @@
   "dependencies": {
     "babel-eslint": "^10.0.3",
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-qunar-base": "^1.1.8",
+    "eslint-config-qunar-base": "^1.1.11",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3"
   },
