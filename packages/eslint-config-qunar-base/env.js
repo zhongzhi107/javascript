@@ -1,3 +1,7 @@
+/**
+ * 一次将所有 env 导入
+ */
+
 module.exports = {
   browser: true,
   node: true,
