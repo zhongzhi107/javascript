@@ -2,6 +2,7 @@ const env = require('./env');
 
 module.exports = {
   extends: ['eslint-config-airbnb-base'],
+  parser: 'babel-eslint',
   plugins: ['qunar'],
   env,
   // reportUnusedDisableDirectives: true,
