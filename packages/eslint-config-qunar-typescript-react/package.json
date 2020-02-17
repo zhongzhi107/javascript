@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-typescript-react",
-  "version": "1.1.13",
+  "version": "1.1.14",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -22,8 +22,8 @@
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
     "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-qunar-react": "^1.1.13",
-    "eslint-config-qunar-typescript-base": "^1.1.13",
+    "eslint-config-qunar-react": "^1.1.14",
+    "eslint-config-qunar-typescript-base": "^1.1.14",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.14.3"
   },
