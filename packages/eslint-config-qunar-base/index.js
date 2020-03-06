@@ -18,11 +18,22 @@ module.exports = {
     'class-methods-use-this': 'off',
     // 强制对象的最后一项不能有逗号
     'comma-dangle': ['error', 'never'],
+    'max-classes-per-file': 'warn',
+    'max-len': 'warn',
     'no-alert': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
     // 允许在 for 循环中使用自增/自减
     'no-plusplus': ['warn', { allowForLoopAfterthoughts: true }],
+
+    // 单行最多解构 10 个变量，超过需要换行
+    'object-curly-newline': ['error', {
+      ObjectExpression: { minProperties: 11, multiline: true, consistent: true },
+      ObjectPattern: { minProperties: 11, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 11, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 11, multiline: true, consistent: true },
+    }],
+
 
     'import/extensions': [
       'error',
@@ -40,6 +51,7 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     // 不能在 import 语句中使用表达式，如 require(`../${name}`);
     'import/no-dynamic-require': 'off',
+    'import/prefer-default-export': 'off',
 
     // 强制 eslint-disable 后必须跟具体规则名称
     'qunar/no-abusive-eslint-disable': 'error',
