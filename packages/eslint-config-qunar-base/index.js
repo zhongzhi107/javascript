@@ -19,7 +19,13 @@ module.exports = {
     // 强制对象的最后一项不能有逗号
     'comma-dangle': ['error', 'never'],
     'max-classes-per-file': 'warn',
-    'max-len': 'warn',
+    'max-len': ['warn', 100, 2, {
+      ignoreUrls: true,
+      ignoreComments: true,
+      ignoreRegExpLiterals: true,
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+    }],
     'no-alert': 'off',
     'no-console': 'off',
     'no-param-reassign': 'off',
