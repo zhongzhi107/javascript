@@ -10,5 +10,5 @@
     "packages/eslint-config-qunar-typescript-react",
     "packages/eslint-config-qunar-typescript-rn"
   ],
-  "version": "1.1.14"
+  "version": "1.1.15"
 }
