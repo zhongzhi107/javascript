@@ -10,6 +10,7 @@ module.exports = {
   'react/prop-types': 'off',
   'react/no-danger': 'warn',
   'react/no-deprecated': 'warn',
+  'react/state-in-constructor': 'off',
   // 允许在ES6 class中使用静态属性声明propTypes和defaultProps
   'react/static-property-placement': 'off',
   // 禁止在 JSX 中使用 ref ，和 ref="nofollow" 冲突
