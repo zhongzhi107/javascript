@@ -8,6 +8,8 @@ module.exports = {
   commonjs: true,
   'shared-node-browser': true,
   es6: true,
+  es2017: false,
+  es2020: false,
   worker: true,
   amd: true,
   mocha: true,
