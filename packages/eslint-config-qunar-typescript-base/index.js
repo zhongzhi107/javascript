@@ -19,7 +19,7 @@ module.exports = {
     // export type CqpMap = {
     //   h_home_rn?: Maybe<Scalars['Int']> // h_home_rn 为后端返回的字段
     // }
-    camelcase: ['error', {ignoreDestructuring: 'never'}],
+    camelcase: ['warn', {ignoreDestructuring: 'never'}],
 
     '@typescript-eslint/no-unused-vars': [
       'error',
