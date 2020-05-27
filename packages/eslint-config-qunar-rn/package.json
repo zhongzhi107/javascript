@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
+    "@qnpm/eslint-plugin-event-listener": "0.0.1",
     "eslint-config-qunar-react": "^1.1.21"
   },
   "devDependencies": {
