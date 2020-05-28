@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-rn",
-  "version": "1.1.24",
+  "version": "1.1.25",
   "description": "Qunar's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
-    "eslint-config-qunar-react": "^1.1.24",
+    "eslint-config-qunar-react": "^1.1.25",
     "eslint-plugin-event-listener": "0.0.3"
   },
   "devDependencies": {
