@@ -40,7 +40,6 @@ module.exports = {
       ExportDeclaration: { minProperties: 11, multiline: true, consistent: true },
     }],
 
-
     'import/extensions': [
       'error',
       'ignorePackages',
