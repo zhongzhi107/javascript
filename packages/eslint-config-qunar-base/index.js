@@ -9,6 +9,7 @@ module.exports = {
   rules: {
     // 函数复杂度
     complexity: 'off',
+    
     // 禁止使用 javascript:void(0)
     'no-script-url': 'off',
     //禁止使用按位运算符，关闭
