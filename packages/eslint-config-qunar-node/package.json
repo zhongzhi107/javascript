@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-qunar-node",
-  "version": "1.1.21",
+  "version": "1.1.24",
   "description": "Qunar's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/zhongzhi107/javascript#readme",
   "dependencies": {
-    "eslint-config-qunar-base": "^1.1.21"
+    "eslint-config-qunar-base": "^1.1.24"
   },
   "devDependencies": {
     "eslint": "^6.3.0"
