@@ -1,0 +1,12 @@
+15 error Error: Command failed: git remote update
+15 error fatal: unable to access 'https://github.com/zhongzhi107/javascript.git/': Failed to connect to github.com port 443: Operation timed out
+15 error error: Could not fetch origin
+15 error
+15 error Fetching origin
+15 error
+15 error     at makeError (/Users/zhi.zhong/workspace/github/javascript/node_modules/execa/index.js:174:9)
+15 error     at Function.module.exports.sync (/Users/zhi.zhong/workspace/github/javascript/node_modules/execa/index.js:338:15)
+15 error     at Object.execSync (/Users/zhi.zhong/workspace/github/javascript/node_modules/@lerna/child-process/index.js:26:16)
+15 error     at updateRemote (/Users/zhi.zhong/workspace/github/javascript/node_modules/@lerna/version/lib/is-behind-upstream.js:26:16)
+15 error     at isBehindUpstream (/Users/zhi.zhong/workspace/github/javascript/node_modules/@lerna/version/lib/is-behind-upstream.js:11:3)
+15 error     at VersionCommand.initialize (/Users/zhi.zhong/workspace/github/javascript/node_modules/@lerna/version/index.js:150:9)
